@@ -1,0 +1,101 @@
+body {
+  width: 1440px;
+  height: 1022px;
+}
+body header {
+  height: 168px;
+  background-color: white;
+  display: flex;
+}
+body header .topBlock {
+  width: 98px;
+  height: 98px;
+  margin-top: 34px;
+  margin-left: 82px;
+  background-color: rgb(71, 84, 103);
+  border: 1px solid black;
+}
+body header .topWord {
+  width: 269px;
+  height: 24px;
+  margin-left: 155px;
+  margin-top: 93px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header .topIconNumber {
+  width: 204px;
+  height: 30px;
+  margin-left: 291px;
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+body header .topIconNumber i {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+body header .topButton {
+  width: 248px;
+  height: 48px;
+  margin-left: 13px;
+  margin-top: 71px;
+  background: rgb(71, 84, 103);
+  display: flex;
+  justify-content: space-around;
+}
+body header .topButton button {
+  background-color: rgb(71, 84, 103);
+  border: 0;
+  padding: 0;
+}
+body header .topButton a {
+  text-decoration: none;
+}
+body header .topButton p {
+  margin: auto;
+  color: white;
+}
+body .photo {
+  height: 481px;
+  background-image: url(./banner1_0.png);
+  z-index: -1;
+}
+body .buttomBlock {
+  width: 917px;
+  height: 161px;
+  margin-top: 58px;
+  margin-left: 261px;
+  display: flex;
+  justify-content: space-around;
+}
+body .buttomBlock p {
+  color: white;
+}
+body .buttomBlock .buttomBlock-1 {
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .buttomBlock .buttomBlock-2 {
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .buttomBlock .buttomBlock-3 {
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

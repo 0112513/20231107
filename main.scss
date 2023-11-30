@@ -1,0 +1,107 @@
+body{
+    width: 1440px;
+    height: 1022px;
+
+
+
+header{
+    height: 168px;
+    background-color: white;
+    display: flex;
+    .topBlock{
+        width: 98px;
+        height: 98px;
+        margin-top: 34px;
+        margin-left: 82px;
+        background-color:rgba(71, 84, 103, 1);
+        border: 1px solid black;
+    }
+    .topWord{
+        width: 269px;
+        height: 24px;
+        margin-left: 155px;
+        margin-top:93px ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .topIconNumber{
+        width: 204px;
+        height: 30px;
+        margin-left: 291px;
+        margin-top: 88px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        i{
+            position: absolute;
+            bottom: 10px;
+            left: 50px;
+        }
+    }
+    .topButton{
+        width: 248px;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 71px;
+        background: rgba(71, 84, 103, 1);
+        display: flex;
+        justify-content: space-around;
+
+        button{
+            background-color: rgba(71, 84, 103, 1);
+            border: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        p{
+            margin: auto;
+            color: white;
+        }
+    }
+
+    
+}
+.photo{
+    height: 481px;
+    background-image:url(./banner1_0.png) ;
+    z-index: -1;
+}
+.buttomBlock{
+    width: 917px;
+    height: 161px;
+    margin-top: 58px;
+    margin-left:261px;
+    display: flex;
+    justify-content: space-around;
+    p{
+        color: white;
+    }
+    .buttomBlock-1{
+        width: 270px;
+        border: 1px solid black;
+        background: rgba(71, 84, 103, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttomBlock-2{
+        width: 270px;
+        border: 1px solid black;
+        background: rgba(71, 84, 103, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttomBlock-3{
+        width: 270px;
+        border: 1px solid black;
+        background: rgba(71, 84, 103, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+}

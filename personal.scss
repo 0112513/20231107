@@ -1,0 +1,137 @@
+body{
+    width: 1440px;
+    height: 1022px;
+
+
+
+header{
+    height: 168px;
+    background-color: white;
+    display: flex;
+    .topBlock{
+        width: 98px;
+        height: 98px;
+        margin-top: 34px;
+        margin-left: 82px;
+        background-color:rgba(71, 84, 103, 1);
+        border: 1px solid black;
+    }
+    .topWord{
+        width: 269px;
+        height: 24px;
+        margin-left: 155px;
+        margin-top:93px ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .topIconNumber{
+        width: 204px;
+        height: 30px;
+        margin-left: 291px;
+        margin-top: 88px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        i{
+            position: absolute;
+            bottom: 10px;
+            left: 50px;
+        }
+    }
+    .topButton{
+        width: 248px;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 71px;
+        background: rgba(71, 84, 103, 1);
+        display: flex;
+        justify-content: space-around;
+
+        button{
+            background-color: rgba(71, 84, 103, 1);
+            border: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        p{
+            margin: auto;
+            color: white;
+        }
+    }
+        }
+    .personalPage{
+        height: 854px;
+        background-color:#DCDCDC ;
+        padding-top: 165px;
+        p{
+            color: white;
+        }
+        .personalPageBlock1{
+            width:  917px;
+            height: 161px;
+            margin-left: 262px;
+            margin-top: 165px;
+            display: flex;
+            justify-content: space-around;
+            .personalPageBlock1-1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 270px;
+                border: 1px solid black;
+                background: rgba(71, 84, 103, 1);
+            }
+            .personalPageBlock1-2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 270px;
+                border: 1px solid black;
+                background: rgba(71, 84, 103, 1);
+            }
+            .personalPageBlock1-3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 270px;
+                border: 1px solid black;
+                background: rgba(71, 84, 103, 1);
+            }
+        }
+        .personalPageBlock2{
+            width:  917px;
+            height: 161px;
+            margin-left: 262px;
+            margin-top: 34px;
+            display: flex;
+            justify-content: space-around;
+            .personalPageBlock2-1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 270px;
+                border: 1px solid black;
+                background: rgba(71, 84, 103, 1);
+            }
+            .personalPageBlock2-2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 270px;
+                border: 1px solid black;
+                background: rgba(71, 84, 103, 1);
+            }
+            .personalPageBlock2-3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 270px;
+                border: 1px solid black;
+                background: rgba(71, 84, 103, 1);
+            }
+        }
+    }
+}

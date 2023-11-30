@@ -1,0 +1,133 @@
+body {
+  width: 1440px;
+  height: 1022px;
+}
+body header {
+  height: 168px;
+  background-color: white;
+  display: flex;
+}
+body header .topBlock {
+  width: 98px;
+  height: 98px;
+  margin-top: 34px;
+  margin-left: 82px;
+  background-color: rgb(71, 84, 103);
+  border: 1px solid black;
+}
+body header .topWord {
+  width: 269px;
+  height: 24px;
+  margin-left: 155px;
+  margin-top: 93px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header .topIconNumber {
+  width: 204px;
+  height: 30px;
+  margin-left: 291px;
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+body header .topIconNumber i {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+body header .topButton {
+  width: 248px;
+  height: 48px;
+  margin-left: 13px;
+  margin-top: 71px;
+  background: rgb(71, 84, 103);
+  display: flex;
+  justify-content: space-around;
+}
+body header .topButton button {
+  background-color: rgb(71, 84, 103);
+  border: 0;
+  padding: 0;
+}
+body header .topButton a {
+  text-decoration: none;
+}
+body header .topButton p {
+  margin: auto;
+  color: white;
+}
+body .personalPage {
+  height: 854px;
+  background-color: #DCDCDC;
+  padding-top: 165px;
+}
+body .personalPage p {
+  color: white;
+}
+body .personalPage .personalPageBlock1 {
+  width: 917px;
+  height: 161px;
+  margin-left: 262px;
+  margin-top: 165px;
+  display: flex;
+  justify-content: space-around;
+}
+body .personalPage .personalPageBlock1 .personalPageBlock1-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+}
+body .personalPage .personalPageBlock1 .personalPageBlock1-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+}
+body .personalPage .personalPageBlock1 .personalPageBlock1-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+}
+body .personalPage .personalPageBlock2 {
+  width: 917px;
+  height: 161px;
+  margin-left: 262px;
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-around;
+}
+body .personalPage .personalPageBlock2 .personalPageBlock2-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+}
+body .personalPage .personalPageBlock2 .personalPageBlock2-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+}
+body .personalPage .personalPageBlock2 .personalPageBlock2-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  border: 1px solid black;
+  background: rgb(71, 84, 103);
+}/*# sourceMappingURL=personal.css.map */
